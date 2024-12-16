@@ -92,7 +92,7 @@ def mensaje_puntuaciones (cganar, cperder, cempatar): #Esta función definirá q
     elif (cperder == 1):
         print("Y has perido", cperder, "vez\n")
     elif (cperder == 0):
-        print ("¡Y Guau! No has perdido ni una vez\n")
+        print ("¡Y Guau! No has perdido ni una vez\n") 
 
 def puntuaciones_por_ronda(cganar, cperder, cempatar): #Este es un mini menú que saltará cada vez que termine una ronda, el cual mostrará el recuento actual de la partida.
     print("Rondas ganadas:", cganar)
